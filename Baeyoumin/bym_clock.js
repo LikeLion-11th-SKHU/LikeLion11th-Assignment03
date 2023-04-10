@@ -21,6 +21,6 @@ function Datetoday() {
     let year = today.getFullYear();   
     let month = today.getMonth() + 1; 
     let date = today.getDate(); 
-    document.getElementById("date").innerHTML =  year + "년" + month + "월" + date + "일"; 
+    document.getElementById("date").innerHTML =  year + "년" + '&nbsp;' + month + "월" + '&nbsp;' +  date + "일"; 
  }
 
