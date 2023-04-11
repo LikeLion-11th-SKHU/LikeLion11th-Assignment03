@@ -19,6 +19,7 @@ function add_0(time) {
 }
 let btn = document.getElementById("btn");
 let day = document.getElementById("day");
+
 function Text() {
   let Time = new Date();
   let year = Time.getFullYear();
