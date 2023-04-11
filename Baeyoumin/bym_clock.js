@@ -7,6 +7,7 @@ function Clock(){
 }
 
 Clock();
+setInterval(Clock, 1000);
 
 function add_0(time){
     if( parseInt(time) < 10 ) {
