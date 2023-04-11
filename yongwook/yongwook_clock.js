@@ -47,7 +47,7 @@ function Clock() {
             return time;	// else문의 명령 : time을 return하라
     }
 
-    function Date2() {
+    function CurrentDate() {
 
         let today = new Date(); 
     
@@ -57,7 +57,7 @@ function Clock() {
     
         let date = today.getDate(); 
     
-        document.getElementById("date").innerHTML =  year + "년" + month + "월" + date + "일"; 
+        document.getElementById("date").innerHTML =  year + "년&nbsp" + month + "월&nbsp" + date + "일&nbsp"; 
      }
     
     
