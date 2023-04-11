@@ -47,13 +47,3 @@ function Today(){
 	document.getElementById("t").innerHTML=year+"년 "+ month +"월 "+ date +"일";
 	// document.getElementById("t").innerHTML=Today.getFullYear()+"년 "+ eval(Today.getMonth()+1)+"월 "+Today.getDate()+"일";
 }
-
-
-let nowTime = new Date();	// 1. Date 인스턴스를 nowTime이라는 변수에 저장하라
-	
-let hour = add_0(nowTime.getHours());	// 2. hour이라는 변수에 Date의 인스턴스가 된, nowTime을 이용하여 시각 메소드를 불러온 것을 저장하라
-	
-let minute = add_0(nowTime.getMinutes());	// 3. minute이라는 변수에 nowTime을 이용하여 분 메소드를 불러온 것을 저장하라
-	
-let second = add_0(nowTime.getSeconds());	// 4. second라는 변수에 nowTime을 이용하여 초 메소드를 불러온 것을 저장하라
-	
