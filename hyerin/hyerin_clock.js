@@ -32,7 +32,7 @@ function day() {
     let month = today.getMonth() + 1;
     let date = today.getDate();
 
-    document.getElementById("today").innerHTML=year+"년"+month+"월"+date+"일";
+    document.getElementById("today").innerHTML=year+"년 "+month+"월 "+date+"일";
 }
 
 
