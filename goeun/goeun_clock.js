@@ -63,7 +63,7 @@ let year = nowDate.getFullYear();
 let month = nowDate.getMonth() +1 ;
 let day = nowDate.getDate();
 
-document.getElementById("date").innerHTML = year+"년"+month+"월"+day+"일";
+document.getElementById("date").innerHTML = year + "년"+" "+ month+"월"+" "+day+"일";
  
 }
    
