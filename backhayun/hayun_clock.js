@@ -64,7 +64,7 @@ function date() {
     let month = today.getMonth() + 1;
     let day = today.getDate();
 
-    document.getElementById("date").innerHTML = year + "년" + month + "월" + day + "일";
+    document.getElementById("date").innerHTML = year + "년 " + month + "월 " + day + "일";
 };
 
 Clock();
