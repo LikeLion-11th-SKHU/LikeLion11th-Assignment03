@@ -19,8 +19,10 @@ function add_0(time) {
     }
 }
 
-var date = new Date();
-var year = date.getFullYear();
-var month = date.getMonth() + 1;
-var date = date.getDate();
-document.getElementById("date").innerHTML = year + "년 " + month + "월 " + date + "일";
+const fun1 = () => {
+    var date = new Date();
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var date = date.getDate();
+    document.getElementById("date").innerHTML = year + "년 " + month + "월 " + date + "일";
+}
