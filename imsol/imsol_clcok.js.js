@@ -14,7 +14,7 @@ function clock(){
 	document.getElementById("clock").innerHTML = hour + ":" + minute + ":" + second;
 }
 clock();
-setInterval(Clock, 1000);
+setInterval(clock, 1000);
 
 function day() {
 
